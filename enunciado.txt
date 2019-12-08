@@ -1,0 +1,27 @@
+tiny.cc/excecoesExemplo
+
+Crie um programa que simule uma calculadora. Haverá um menu com as seguintes opções:
+
+1- Carregar números;
+
+2- Fazer operação;
+
+3 - Visualizar vetor;
+
+Ao selecionar a opção 1, o sistema solicitará quantos números ele quer inserir, criando um vetor com aquele tamanho e solicitando os valores [1]. 
+
+Na opção 2, o programa solicitará a operação entre eles (+,-,* ou \). Após fazer a operação[2], ele retornará o resultado.
+
+Na opção 3, o programa solicitará qual índice do vetor o usuário gostaria de visualizar, exibindo o número presente nele. [3]
+
+Implemente o programa acima, implementando também manipuladores para as seguintes possibilidades de exceção:
+
+[1] O usuário poderá inserir um tamanho de vetor inválido (como uma string ou char), ou os valores dentro do vetor.
+
+[2] O usuário poderá escolher uma operação de divisão por zero.
+
+[3] O usuário poderá inserir um índice inválido para o vetor.
+
+Obs.: Não use Exception (geral). Após implementar a lógica do sistema, simule as situações para capturar o nome correto de cada exceção levantada.
+
+Obs. 2: Utilize orientação a objetos com métodos estáticos.
